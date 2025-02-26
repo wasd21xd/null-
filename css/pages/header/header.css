@@ -1,0 +1,94 @@
+.header__container {
+  padding-left: 93px;
+  padding-right: 96px;
+  padding-top: 45px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 53px;
+}
+
+.nav__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo__nav {
+  width: 53px;
+  height: auto;
+}
+
+.nav__link {
+  font-family: Inter, sans-serif;
+  color: var(--basic--text--color);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.nav__link:hover {
+  color: #505050;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  transform: translateY(-2px);
+}
+
+.nav__item {
+  padding-top: 7px;
+}
+
+.search__button {
+  width: 348px;
+  height: 57px;
+  border-radius: 20px;
+  background-color: #EDEDED;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #C2C3CB;
+  text-align: center;
+}
+
+.lypa {
+  width: 21px;
+  height: 21px;
+}
+
+.login__button {
+  width: 199px;
+  height: 57px;
+  border-radius: 20px;
+  background-color: #141416;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.login__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.login__button:hover {
+  background-color: #101010;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.nav__buttons {
+  gap: 30px;
+}
+
+/*# sourceMappingURL=header.css.map */
